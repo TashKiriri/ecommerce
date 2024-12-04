@@ -15,9 +15,11 @@ You need to put the following code in the .env file and instead of username and 
 DATABASE_URL="mysql://username:password@localhost:3306/singitronic_nextjs"
 NEXTAUTH_SECRET=12D16C923BA17672F89B18C1DB22A
 NEXTAUTH_URL=http://localhost:3000
+
 7. After you do it, you need to create another .env file in the server folder and put the same DATABASE_URL you used in the previous .env file:
 
 DATABASE_URL="mysql://username:password@localhost:3306/singitronic_nextjs"
+
 8. Now you need to open your terminal of choice in the root folder of the project and write:
 
 npm install
